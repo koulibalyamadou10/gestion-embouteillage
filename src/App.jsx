@@ -6,7 +6,7 @@ class MapContainer extends Component{
     render(){
         return (
             <div>
-                <h1>Bienvenue</h1>
+                <h1 style={{textAlign:"center"}}>Bienvenue sur le site gestion d'embouteillage</h1>
                 <Map 
                     google={this.props.google} 
                     style={{width:"100%", height:"100%"}} 
